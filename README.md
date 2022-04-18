@@ -1,10 +1,6 @@
-# laravel-tencent-cloud
+# lumen-tencent-cloud
 
 This is a tencent cloud expansion for the laravel
-
-[![License](https://poser.pugx.org/larva/laravel-tencent-cloud/license.svg)](https://packagist.org/packages/larva/laravel-tencent-cloud)
-[![Latest Stable Version](https://poser.pugx.org/larva/laravel-tencent-cloud/v/stable.png)](https://packagist.org/packages/larva/laravel-tencent-cloud)
-[![Total Downloads](https://poser.pugx.org/larva/laravel-tencent-cloud/downloads.png)](https://packagist.org/packages/larva/laravel-tencent-cloud)
 
 ## 环境需求
 
@@ -13,7 +9,7 @@ This is a tencent cloud expansion for the laravel
 ## Installation
 
 ```bash
-composer require larva/laravel-tencent-cloud
+composer require janhve/lumen-tencent-cloud
 ```
 
 ## for Laravel
@@ -25,7 +21,7 @@ This service provider must be registered.
 
 'providers' => [
     '...',
-    Larva\TencentCloud\TencentCloudServiceProvider::class,
+    Janhve\TencentCloud\TencentCloudServiceProvider::class,
 ];
 ```
 
