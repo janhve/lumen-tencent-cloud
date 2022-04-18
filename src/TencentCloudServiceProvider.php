@@ -6,7 +6,7 @@
  * @license http://www.larva.com.cn/license/
  */
 
-namespace Larva\TencentCloud;
+namespace Janhve\TencentCloud;
 
 use Illuminate\Support\ServiceProvider;
 
