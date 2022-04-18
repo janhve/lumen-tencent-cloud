@@ -6,7 +6,7 @@
  * @license http://www.larva.com.cn/license/
  */
 
-namespace Larva\TencentCloud\Jobs;
+namespace Janhve\TencentCloud\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
