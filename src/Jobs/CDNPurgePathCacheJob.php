@@ -12,7 +12,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
-use Larva\TencentCloud\TencentCloud;
+use Janhve\TencentCloud\TencentCloud;
 use TencentCloud\Cdn\V20180606\CdnClient;
 use TencentCloud\Cdn\V20180606\Models\PurgePathCacheRequest;
 
