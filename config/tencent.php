@@ -28,17 +28,17 @@ return [
             'secret_key' => env('TENCENT_SECRET_KEY')
         ],
         'ocr' => [
-            'secret_id' => env('TENCENT_SECRET_ID','AKIDqW0EB9rKXS6RYQcFJ7cdOxHOGxa7J6HC'),
-            'secret_key' => env('TENCENT_SECRET_KEY','6zkNm24RaZJmyg8QSMo0wc7WfrPl9MYV'),
+            'secret_id' => env('TENCENT_SECRET_ID'),
+            'secret_key' => env('TENCENT_SECRET_KEY'),
         ],
         'faceid' => [
-            'secret_id' => env('TENCENT_SECRET_ID','AKIDqW0EB9rKXS6RYQcFJ7cdOxHOGxa7J6HC'),
-            'secret_key' => env('TENCENT_SECRET_KEY','6zkNm24RaZJmyg8QSMo0wc7WfrPl9MYV'),
+            'secret_id' => env('TENCENT_SECRET_ID'),
+            'secret_key' => env('TENCENT_SECRET_KEY'),
             'region' => 'ap-guangzhou',
         ],
         'sms' => [
-            'secret_id' => env('TENCENT_SECRET_ID','AKIDqW0EB9rKXS6RYQcFJ7cdOxHOGxa7J6HC'),
-            'secret_key' => env('TENCENT_SECRET_KEY','6zkNm24RaZJmyg8QSMo0wc7WfrPl9MYV'),
+            'secret_id' => env('TENCENT_SECRET_ID'),
+            'secret_key' => env('TENCENT_SECRET_KEY'),
             'region' => 'ap-guangzhou'
         ],
         //如果对应的服务需要使用不同的 secret_id 和 secret_key，请单独在 drivers 的对应服务中设置，否则将使用默认的。
