@@ -1,5 +1,5 @@
 {
-    "name": "larva/laravel-tencent-cloud",
+    "name": "janhve/lumen-tencent-cloud",
     "description": "This is a Laravel expansion for the Tencent Cloud.",
     "keywords": [
         "Larva",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Larva\\TencentCloud\\": "src"
+            "Janhve\\TencentCloud\\": "src"
         }
     },
     "extra": {
@@ -30,10 +30,10 @@
         },
         "laravel": {
             "providers": [
-                "Larva\\TencentCloud\\TencentCloudServiceProvider"
+                "Janhve\\TencentCloud\\TencentCloudServiceProvider"
             ],
             "aliases": {
-                "TencentCloud": "Larva\\TencentCloud\\TencentCloud"
+                "TencentCloud": "Janhve\\TencentCloud\\TencentCloud"
             }
         }
     },
